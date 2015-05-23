@@ -56,5 +56,9 @@ group :doc do
   gem 'sdoc', '0.3.20', require: false
 end
 
+gem 'bootstrap-sass', '2.3.2.0'
+
+gem 'sprockets', '2.11.0'
+
 end
 
