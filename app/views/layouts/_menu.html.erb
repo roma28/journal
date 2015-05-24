@@ -6,7 +6,7 @@
 				<ul class="nav nav-tabs">
 					<li class="<%= "active" if params[:action] == "home" %>"><%= link_to "Домашняя страница", home_path%></li>
 					<li class="<%= "active" if params[:action] == "about" %>"><%= link_to "О проекте", about_path%></li>
-					<li><%= link_to "Войти", "#" %></li>
+					<li class="<%= "active" if params[:action] == "new" %>"><%= link_to "Регистрация", signup_path%></li>
 				</nav>
 		</div>
 	</div> 
